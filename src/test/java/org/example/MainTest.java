@@ -49,13 +49,13 @@ class NumberGuessingGameTest {
         assertEquals(0, chances);
     }
 
+
+    //no idea what to implement in this test case so assertTrue
     @Test
     void testPlayGame_CorrectGuess() {
         String input = "50";
         Scanner scanner = new Scanner(new ByteArrayInputStream(input.getBytes()));
         game.playGame(1, 50, scanner);
-        // Add assertions based on what output you want to verify,
-        // for now, we are checking it doesn't throw any exception
         assertTrue(true);
     }
 
